@@ -9910,3 +9910,7 @@ h4, h5, h6 {
   padding: 0;
   list-style-type: none;
 }
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
