@@ -27,4 +27,18 @@
         } else if (currentURL.endsWith('contact.html')) {
           document.getElementById('contacto').classList.add('active');
         }
-      }
+}
+
+
+function cargarFooter() {
+    fetch("footer.html")
+    .then(function(response) {
+        return response.text();
+    })
+    .then(function(data) {
+        document.getElementById("footer").innerHTML = data;
+        resaltarEnlaceActivo();
+    })
+    .catch(function(error) {
+        console.log('Error al cargar el footer:', error);
+ });}
