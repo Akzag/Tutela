@@ -299,7 +299,7 @@
         var sync2 = $("#sync2");
         sync1.owlCarousel({
             singleItem: true,
-            slideSpeed: 1000,
+            slideSpeed: 3000,
             navigation: false,
             pagination: false,
             afterAction: syncPosition,

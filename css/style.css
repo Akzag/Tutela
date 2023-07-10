@@ -55,6 +55,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -64,6 +65,13 @@ body {
   color: #000000;
   text-align: left  ;
   background-color: #fff;
+  
+}
+
+body.fondo{
+  background-image: url("/img/fondos/peaks--01.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -439,6 +447,12 @@ p.info{
   font-size: 14pt;
   font-family: "Roboto", sans-serif;
   font-style:normal
+}
+
+p.slogan{
+  font-family: 'Fasthand', cursive;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  mar
 }
 
 @media (max-width: 1200px) {

@@ -3,7 +3,7 @@
         <div class="col-lg-3 bg-secondary d-none d-lg-block">
             <a href="index.html"
                 class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                <img src="img\Logo.png" style="object-fit: scale-down; height: 100px" />
+                <img src="img\Logo.png" style="object-fit: scale-down; height: 120px" />
             </a>
         </div>
         <div class="col-lg-9">
@@ -45,7 +45,15 @@
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav mr-auto py-0">
                         <a href="index.html" class="nav-item nav-link" id="inicio">Inicio</a>
-                        <a href="about.html" class="nav-item nav-link" id="nosotos">Sobre Nosotros</a>
+
+                        <div class="nav-item dropdown">
+                            <a href="about.html" class="nav-item nav-link dropdown-toggle" data-toggle="dropdown-menu"
+                                id="servicios">Nosotros</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="misionvision.html" class="nav-item nav-link" id="nosotos">Mision y Vision</a>           
+                            </div>
+                        </div>
+                     
                         <div class="nav-item dropdown">
                             <a href="service.html" class="nav-item nav-link dropdown-toggle" data-toggle="dropdown-menu"
                                 id="servicios">Servicios</a>
@@ -56,6 +64,9 @@
                         </div>
                         <a href="news.html" class="nav-item nav-link" id="noticias">Noticias</a>
                         <a href="contact.html" class="nav-item nav-link" id="contact">Contacto</a>
+                    </div>
+                    <div class="center">
+                       <img src="img\slogan.png" alt="slogan" style="width: 300px;">
                     </div>
                 </div>
             </nav>
